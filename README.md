@@ -13,11 +13,11 @@ You can check out the [DEMO](https://alekstar79.github.io/notify2)
 ## <a name="install">Installation</a>
 
 ```shell
-npm install notify2
+npm install @alekstar79/notify2
 ```
 or
 ```shell
-yarn add notify2
+yarn add @alekstar79/notify2
 ```
 
 ## <a name="usage">Usage</a>

@@ -1,6 +1,5 @@
 {
-  "name": "notify2",
-  "private": true,
+  "name": "@alekstar79/notify2",
   "version": "1.0.0",
   "description": "TS library for displaying Notifications.",
   "author": "<alekstar79@yandex.ru>",
@@ -19,8 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/alekstar79/notify2.git"
   },
+  "files": ["dist","src"],
   "types": "dist/index.d.ts",
-  "main": "dist/index.umd.js",
+  "main": "dist/index.umd.cjs",
   "module": "dist/index.js",
   "exports": {
     ".": {
@@ -53,7 +53,7 @@
     "vite-plugin-dts": "^3.9.1",
     "vite-plugin-inspect": "^0.8.4"
   },
-  "dependencies": {
+  "peerDependencies": {
     "texsaur": "^1.0.2"
   }
 }
