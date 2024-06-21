@@ -202,7 +202,8 @@ const fns = {
   'addTimeoutNotifFromTopDir()': addTimeoutNotifFromTopDir,
   'addSuccessNotifFromBottomDir()': addSuccessNotifFromBottomDir,
   'addTimeoutNotifFromBottomDir()': addTimeoutNotifFromBottomDir,
-  'pushCustomNotif()': pushCustomNotif
+  'pushCustomNotif()': pushCustomNotif,
+  'pullCustomizedNotifs()': pullCustomizedNotifs
 }
 
 export function templater(content)
