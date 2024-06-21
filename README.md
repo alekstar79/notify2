@@ -12,11 +12,11 @@ You can check out the [DEMO](https://alekstar79.github.io/notify2)
 
 ## <a name="install">Installation</a>
 
-```console
+```shell
 npm install notify2
 ```
 or
-```console
+```shell
 yarn add notify2
 ```
 
