@@ -1,0 +1,59 @@
+{
+  "name": "notify2",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TS library for displaying Notifications.",
+  "author": "<alekstar79@yandex.ru>",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "typescript",
+    "notifications",
+    "toasts"
+  ],
+  "homepage": "https://github.com/alekstar79/notify2#readme",
+  "bugs": {
+    "url": "https://github.com/alekstar79/notify2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekstar79/notify2.git"
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.umd.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./**/*.{ts,tsx}",
+    "tsc": "tsc --project tsconfig.json",
+    "tsc-dts": "tsc --emitDeclarationOnly",
+    "tsc-noemit": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.6",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.5.0",
+    "postcss-inline-svg": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.77.6",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^7.13.1",
+    "vite": "^5.2.0",
+    "vite-plugin-checker": "^0.6.4",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-inspect": "^0.8.4"
+  },
+  "dependencies": {
+    "texsaur": "^1.0.2"
+  }
+}

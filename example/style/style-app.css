@@ -1,0 +1,77 @@
+body,
+html {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.notifications-container {
+  background-color: #f7f9ff;
+  min-height: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #337ab7;
+}
+
+.notifications-container-from-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.btn-group {
+  margin: 2px;
+}
+
+button {
+  margin-top: 2px;
+  margin-bottom: 2px !important;
+}
+
+.panel-content-unit {
+  padding: 5px !important;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 10px;
+}
+
+/* customized demo */
+
+.cmd {
+  background-color: black;
+  min-height: 250px;
+  border-color: #7c7c7c;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.custom-close-btn {
+  cursor: pointer;
+}
+
+.cmd-tool-panel {
+  background-color: white;
+  color: black;
+  padding: 0 5px;
+}
+
+.cmd-tool-panel-btns {
+  display: inline-block;
+  float: right;
+}
+
+.cmd-pull-all-btn {
+  cursor: pointer;
+}
+
+.cmd-canvas {
+  color: green;
+  display: inline-block;
+  padding: 5px;
+}
+
+.custom-notification {
+  margin: 3px 0;
+}

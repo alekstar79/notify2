@@ -1,0 +1,10 @@
+export declare const getElement: (query: string) => HTMLElement;
+export declare const getElementById: (id: string) => HTMLElement;
+export declare const removeClass: (el: HTMLElement, className: string) => void;
+export declare const addClass: (el: HTMLElement, className: string) => void;
+export declare const getElementFromHtmlString: (htmlString: string) => HTMLElement;
+export declare const appendElementToContainer: (container: HTMLElement, el: HTMLElement | string) => void;
+export declare const prependElementToContainer: (container: HTMLElement, el: HTMLElement | string) => void;
+export declare const removeElement: (el: HTMLElement) => void;
+export declare const removeElementById: (id: string) => void;
+export declare const addOnClick: (query: string, cb: () => void) => void;
