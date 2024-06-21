@@ -1,4 +1,4 @@
-# Notify2 <img src="ts.svg" width="28px"> [![npm](https://img.shields.io/npm/v/@alekstar79/notify2.svg)](https://www.npmjs.com/package/@alekstar79/notify2) [![GitHub repo](https://img.shields.io/badge/github-repo-green.svg?style=flat)](https://github.com/alekstar79/notify2)
+# Notify2 <img src="ts.svg" width="25px"> [![npm](https://img.shields.io/npm/v/@alekstar79/notify2.svg)](https://www.npmjs.com/package/@alekstar79/notify2) [![GitHub repo](https://img.shields.io/badge/github-repo-green.svg?style=flat)](https://github.com/alekstar79/notify2)
 
 #### TS library for displaying notifications inside specific containers. It is possible to create several independent modules that will have a separate set of notifications.
 
